@@ -1,9 +1,5 @@
-function App() {
-  return (
-    <div className="text-[300px] text-green-800">
-      Won't Update
-    </div>
-  );
-}
+import Hero from './components/Hero/Hero'
 
-export default App;
+const App = () => <Hero />
+
+export default App
