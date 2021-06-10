@@ -1,7 +1,7 @@
 function App() {
   return (
-    <div className="text-[300px] text-blue-800">
-      Updates Automatically
+    <div className="text-[300px] text-green-800">
+      Won't Update
     </div>
   );
 }
