@@ -1,11 +1,12 @@
-import Navbar from './components/Navbar/Navbar'
-import Hero from './components/Hero/Hero'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import Projects from './components/Projects'
 
 const App = () => (
-  <>
-    <Navbar />
+  <div className="flex w-[200rem]">
     <Hero />
-  </>
+    <Projects />
+  </div>
 )
 
 export default App
